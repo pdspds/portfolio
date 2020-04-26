@@ -1,0 +1,5 @@
+@for $i from 1 to 64 {
+    .fw#{$i} {
+        font-size: 1px * $i;
+    }
+}
